@@ -1144,6 +1144,42 @@ button {
   }
 }
 
+/* cards with a case study: the title link stretches over the whole card */
+.work-card.has-link {
+  position: relative;
+}
+
+.work-link::after {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  content: "";
+}
+
+.work-card.has-link:focus-within {
+  outline: 2px solid #e7a3b6;
+  outline-offset: 3px;
+}
+
+.work-link:focus-visible {
+  outline: none;
+}
+
+.work-view {
+  margin: -18px 0 26px;
+  color: #e7a3b6;
+  font-size: 14px;
+}
+
+.work-view span {
+  display: inline-block;
+  transition: transform 200ms ease;
+}
+
+.work-card.has-link:hover .work-view span {
+  transform: translate(2px, -2px);
+}
+
 .work-card-top {
   display: flex;
   justify-content: space-between;
