@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sabrina Mohammed — curious creator blending design and technology to craft meaningful, user-centered solutions."
+    />
+    <meta name="theme-color" content="#fbf7f3" />
+    <title>Sabrina Mohammed — Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Sabrina Mohammed, home">
+        <span class="brand-mark"><img src="sm_lettermark.png" alt="" /></span>
+        <span class="brand-name">Sabrina<br />Mohammed</span>
+      </a>
+      <a class="nav-contact" href="contact.html">Let’s Connect <span aria-hidden="true">⟶</span></a>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Hello, I’m Sabrina</p>
+          <h1>
+            <span class="line">
+              <span class="sr-only">Curious</span>
+              <span class="curious" aria-hidden="true"><span style="--i:0">C</span><span style="--i:1">u</span><span style="--i:2">r</span><span style="--i:3">i</span><span style="--i:4">o</span><span style="--i:5">u</span><span style="--i:6">s</span><span class="curious-mark">?</span></span>
+              by nature.
+            </span>
+            <em class="line"><span class="creative">Creative<svg class="swash" viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M4 12 C38 5 70 17 104 10 S166 4 196 9" /></svg></span> by design.</em>
+            <span class="line"><span class="sr-only">Engineer</span><span class="engineer" aria-hidden="true"><span style="--i:0">E</span><span style="--i:1">n</span><span style="--i:2">g</span><span style="--i:3">i</span><span style="--i:4">n</span><span style="--i:5">e</span><span style="--i:6">e</span><span style="--i:7">r</span></span> by choice.<span class="caret" aria-hidden="true"></span></span>
+          </h1>
+          <p class="hero-intro">
+            Blending design and technology to craft meaningful,<br class="desktop-break" />
+            user-centered solutions.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-secondary" href="experience.html">Experience</a>
+            <a class="button button-secondary" href="about.html">About Me</a>
+            <a class="button button-primary" href="work.html">View My Work <span aria-hidden="true">⟶</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="blush" aria-hidden="true"></div>
+          <!-- back layer: arch + the half of the orbit that passes behind the photo -->
+          <svg class="hero-lines hero-lines-back" viewBox="0 0 1030 860" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="arch-fade" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="currentColor" stop-opacity="0.9" />
+                <stop offset="0.7" stop-color="currentColor" stop-opacity="0.55" />
+                <stop offset="1" stop-color="currentColor" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <!-- outer arch echoing the portrait frame -->
+            <path class="arch" pathLength="1" d="M195 815 V330 A330 330 0 0 1 855 330 V420" stroke="url(#arch-fade)" />
+            <g transform="rotate(-24 478 612)">
+              <ellipse class="orbit" pathLength="1" cx="478" cy="612" rx="492" ry="182" />
+            </g>
+          </svg>
+
+          <div class="portrait-frame">
+            <img
+              class="portrait"
+              src="portrait.png"
+              alt="Illustrated portrait of Sabrina Mohammed"
+              width="614"
+              height="548"
+            />
+          </div>
+
+          <!-- front layer: the lower half of the orbit crosses in front of the photo -->
+          <svg class="hero-lines hero-lines-front" viewBox="0 0 1030 860" aria-hidden="true" focusable="false">
+            <path class="orbit" pathLength="1" d="M306.2 494.2 L286.2 505.5 L266.6 517.0 L247.5 528.7 L228.9 540.6 L210.8 552.7 L193.4 565.0 L176.7 577.3 L160.6 589.7 L145.3 602.2 L130.8 614.7 L117.0 627.2 L104.1 639.6 L92.0 652.0 L80.9 664.3 L70.6 676.5 L61.3 688.5 L52.9 700.3 L45.6 712.0 L39.2 723.4 L33.8 734.6 L29.5 745.4 L26.2 756.0 L23.9 766.2 L22.7 776.1 L22.5 785.6 L23.4 794.7 L25.4 803.4 L28.3 811.6 L32.3 819.4 L37.4 826.7 L43.4 833.5 L50.5 839.8 L58.5 845.6 L67.5 850.8 L77.5 855.5 L88.4 859.6 L100.1 863.2 L112.8 866.1 L126.3 868.5 L140.6 870.3 L155.7 871.5 L171.5 872.1 L188.0 872.1 L205.2 871.5 L223.0 870.3 L241.5 868.5 L260.4 866.1 L279.9 863.1 L299.8 859.6 L320.1 855.5 L340.8 850.8 L361.8 845.5 L383.1 839.8 L404.6 833.5 L426.3 826.7 L448.0 819.4 L469.9 811.6 L491.8 803.3 L513.6 794.6 L535.4 785.5 L557.0 776.0 L578.4 766.2 L599.7 755.9 L620.6 745.3 L641.2 734.5 L661.4 723.3 L681.2 711.9 L700.6 700.2 L719.4 688.4 L737.6 676.4 L755.3 664.2 L772.3 651.9 L788.7 639.5 L804.3 627.1 L819.2 614.6 L833.3 602.1 L846.6 589.6 L859.0 577.2 L870.5 564.9 L881.2 552.6 L890.9 540.5 L899.6 528.6 L907.4 516.9 L914.2 505.4 L920.0 494.1 L924.8 483.1 L928.5 472.4 L931.2 462.0 L932.9 452.0 L933.5 442.3 L933.1 433.1 L931.6 424.2 L929.1 415.8 L925.5 407.8 L920.9 400.3 L915.2 393.3" />
+            <!-- right-hand rule -->
+            <path class="rule" d="M852 412 V588 M852 652 V840" />
+            <!-- sparkle -->
+            <path
+              class="sparkle"
+              d="M193 272 C196 290 199 295 216 298 C199 301 196 306 193 326 C190 306 187 301 170 298 C187 295 190 290 193 272 Z"
+            />
+          </svg>
+
+          <p class="script-note" aria-label="Curious creator">
+            <span>Curious</span>
+            <span>Creator</span>
+            <svg class="heart" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+              <path d="M20 34 C10 25 5 19 6 12 C7 6 15 4 19 12 C22 3 32 5 33 12 C34 19 28 25 20 34" />
+            </svg>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
